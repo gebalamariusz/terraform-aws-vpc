@@ -1,5 +1,6 @@
 # AWS VPC Terraform Module
 
+[![Terraform Registry](https://img.shields.io/badge/Terraform%20Registry-gebalamariusz%2Fvpc%2Faws-blue?logo=terraform)](https://registry.terraform.io/modules/gebalamariusz/vpc/aws)
 [![CI](https://github.com/gebalamariusz/terraform-aws-vpc/actions/workflows/ci.yml/badge.svg)](https://github.com/gebalamariusz/terraform-aws-vpc/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/gebalamariusz/terraform-aws-vpc?display_name=tag&sort=semver)](https://github.com/gebalamariusz/terraform-aws-vpc/releases)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -22,7 +23,7 @@ Terraform module to create AWS VPC with optional Internet Gateway, DHCP Options,
 
 ```hcl
 module "vpc" {
-  source  = "hait/vpc/aws"
+  source  = "gebalamariusz/vpc/aws"
   version = "1.0.0"
 
   name       = "my-app"
@@ -34,7 +35,7 @@ module "vpc" {
 
 ```hcl
 module "vpc" {
-  source  = "hait/vpc/aws"
+  source  = "gebalamariusz/vpc/aws"
   version = "1.0.0"
 
   name       = "my-app"
@@ -51,7 +52,7 @@ module "vpc" {
 
 ```hcl
 module "vpc" {
-  source  = "hait/vpc/aws"
+  source  = "gebalamariusz/vpc/aws"
   version = "1.0.0"
 
   name       = "my-app"
@@ -68,7 +69,7 @@ module "vpc" {
 
 ```hcl
 module "vpc" {
-  source  = "hait/vpc/aws"
+  source  = "gebalamariusz/vpc/aws"
   version = "1.0.0"
 
   name       = "existing"
