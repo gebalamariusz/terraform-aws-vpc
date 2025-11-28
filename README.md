@@ -122,10 +122,6 @@ See [variables.tf](variables.tf) for all available inputs.
 
 See [outputs.tf](outputs.tf) for all available outputs.
 
-## Examples
-
-- [Simple VPC](https://github.com/gebalamariusz/hait-terraform-modules/tree/main/examples/vpc-simple) - Various VPC configurations
-
 ## License
 
 MIT Licensed. See [LICENSE](LICENSE) for full details.
